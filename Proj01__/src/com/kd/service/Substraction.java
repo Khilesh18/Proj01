@@ -10,17 +10,20 @@ public class Substraction {
 		System.out.println("30-9=21");
 		System.out.println("40-9=31");
 
-		int x=19;
-		int y=33;
-		int sub = Sub(x, y);
-		System.out.println("Substraction:" +sub);
-
+		Pattern();
 
 	}
 	
-	public static int Sub(int x,int y) {
+	public static void Pattern() {
 		
-		return y-x;
+		for(int i=1;i<=5;i++)
+		{
+			for(int j=1;j<=5;j++)
+			{
+				System.out.print(" * ");
+				
+			}System.out.println();
+		}
 		
 	}
 	
